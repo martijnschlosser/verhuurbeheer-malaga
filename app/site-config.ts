@@ -82,7 +82,7 @@ export const siteConfig = {
     googleAdsConversionLabel:
       process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL ?? "",
     searchConsoleVerification:
-      process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ?? "",
+      process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "iE_yNr2nDsGd7dIGOW1OKpZLrKB-IlRtvNZBHpKsfj0",
   },
 } as const;
 
