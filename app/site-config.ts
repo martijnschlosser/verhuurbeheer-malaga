@@ -51,6 +51,8 @@ export const siteConfig = {
       "Fullservice verhuurbeheer in Málaga voor Nederlandse eigenaren. Vakantieverhuur vanaf 18%, midterm, langetermijn en lokaal vastgoedbeheer.",
     primaryKeywords: [
       "verhuurbeheer Málaga",
+      "Nederlandse verhuurmakelaar Málaga",
+      "sleutelbeheer Málaga",
       "vakantieverhuurbeheer Málaga",
       "vastgoedbeheer Málaga",
       "woningbeheer Málaga",
@@ -64,6 +66,8 @@ export const siteConfig = {
     ],
     longTailKeywords: [
       "Nederlandstalig verhuurbeheer voor woningeigenaren in Málaga",
+      "Nederlandse verhuurmakelaar voor appartement in Málaga",
+      "sleutelbeheer voor tweede woning in Málaga",
       "vakantiewoning professioneel laten verhuren in Málaga",
       "Airbnb en Booking beheer voor appartement in Málaga",
       "fullservice vakantieverhuurbeheer aan de Costa del Sol",
