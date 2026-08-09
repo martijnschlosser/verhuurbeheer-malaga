@@ -46,7 +46,7 @@ const team = [
     name: "Sophie",
     role: "Backoffice",
     languages: "NL · EN · ES",
-    image: "/sophie-malaga.webp",
+    image: siteConfig.assets.sophie,
     alt: "Sophie, Nederlandstalig aanspreekpunt en backoffice bij Verhuurbeheer Spanje",
   },
   {
@@ -163,6 +163,13 @@ const relatedBySlug: Record<string, string[]> = {
     "zelf-verhuren-of-verhuurbeheer",
   ],
 };
+
+Object.assign(relatedBySlug, {
+  "stadsappartement-beheren-op-afstand-malaga": ["appartement-verhuren-malaga","vastgoedbeheer-malaga","sleutelbeheer-malaga","kosten-verhuurbeheer-malaga","zelf-verhuren-of-verhuurbeheer"],
+  "appartement-verhuren-malaga": ["stadsappartement-beheren-op-afstand-malaga","vastgoedbeheer-malaga","sleutelbeheer-malaga","kosten-verhuurbeheer-malaga","zelf-verhuren-of-verhuurbeheer"],
+  "vastgoedbeheer-malaga": ["stadsappartement-beheren-op-afstand-malaga","appartement-verhuren-malaga","sleutelbeheer-malaga","kosten-verhuurbeheer-malaga","zelf-verhuren-of-verhuurbeheer"],
+  "sleutelbeheer-malaga": ["stadsappartement-beheren-op-afstand-malaga","appartement-verhuren-malaga","vastgoedbeheer-malaga","kosten-verhuurbeheer-malaga","zelf-verhuren-of-verhuurbeheer"],
+});
 
 const contentVisualBySlug: Record<string, { src: string; alt: string }> = {
   "vakantieverhuur-malaga": {
@@ -823,7 +830,7 @@ export default async function ContentRoute({
         <section className="blog-lead">
           <div className="blog-lead-person">
             <img
-              src="/sophie-malaga.webp"
+              src={siteConfig.assets.sophie}
               alt="Sophie van Verhuurbeheer Málaga"
               width={1088}
               height={1100}
