@@ -30,6 +30,7 @@ export const siteConfig = {
     hero: "/malaga-hero.webp",
     social: "/luxe-woning-malaga-zeezicht.webp",
     signup: "/zonnig-terras-zeezicht-malaga.webp",
+    sophie: "/sophie-malaga.webp",
   },
   domain: "https://verhuurbeheermalaga.nl",
   contact: {
