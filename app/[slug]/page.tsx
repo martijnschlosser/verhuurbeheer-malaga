@@ -171,6 +171,13 @@ Object.assign(relatedBySlug, {
   "sleutelbeheer-malaga": ["stadsappartement-beheren-op-afstand-malaga","appartement-verhuren-malaga","vastgoedbeheer-malaga","kosten-verhuurbeheer-malaga","zelf-verhuren-of-verhuurbeheer"],
 });
 
+Object.assign(relatedBySlug, {
+  "stadsappartement-toegang-leveranciers-malaga": ["sleutelbeheer-malaga","vastgoedbeheer-malaga","appartement-verhuren-malaga","stadsappartement-beheren-op-afstand-malaga","kosten-verhuurbeheer-malaga"],
+  "sleutelbeheer-malaga": ["stadsappartement-toegang-leveranciers-malaga", ...(relatedBySlug["sleutelbeheer-malaga"] ?? []).filter((slug) => slug !== "stadsappartement-toegang-leveranciers-malaga")].slice(0, 6),
+  "vastgoedbeheer-malaga": ["stadsappartement-toegang-leveranciers-malaga", ...(relatedBySlug["vastgoedbeheer-malaga"] ?? []).filter((slug) => slug !== "stadsappartement-toegang-leveranciers-malaga")].slice(0, 6),
+  "appartement-verhuren-malaga": ["stadsappartement-toegang-leveranciers-malaga", ...(relatedBySlug["appartement-verhuren-malaga"] ?? []).filter((slug) => slug !== "stadsappartement-toegang-leveranciers-malaga")].slice(0, 6),
+});
+
 const contentVisualBySlug: Record<string, { src: string; alt: string }> = {
   "vakantieverhuur-malaga": {
     src: "/luxe-woning-malaga-zeezicht.webp",
