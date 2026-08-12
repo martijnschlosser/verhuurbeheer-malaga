@@ -27,6 +27,73 @@ export const contentPages:ContentPage[]=[
 ,
 {"slug":"stadsappartement-beheren-op-afstand-malaga","type":"gids","eyebrow":"Praktische gids voor eigenaren","title":"Een stadsappartement in Málaga op afstand beheren","seoTitle":"Appartement Málaga op afstand beheren | Eigenarengids","description":"Appartement in Málaga beheren vanuit Nederland? Organiseer toegang, gebouwafspraken, sleutelbeheer, woningchecks en verhuur vanuit één proces.","intro":"Een appartement in Málaga Centro, Huelin of Málaga Este kan aantrekkelijk zijn voor eigen gebruik en verhuur, maar beheer op afstand vraagt om strakke toegang, snelle lokale opvolging en duidelijke afspraken met het gebouw.","sections":[{"title":"Leg gebouwtoegang en verantwoordelijkheden vast","paragraphs":["Documenteer portaal-, lift-, garage- en woningsleutels, intercominstructies en contactgegevens van de administrateur of comunidad. Maak duidelijk wat onder het gebouw valt en wat jij binnen het appartement zelf moet organiseren.","In Málaga Centro kunnen toegangs- en werktijden voor leveranciers praktisch anders zijn dan in Huelin of een residentieel gebouw in El Limonar. De beheerafspraak moet daarom bij het specifieke pand passen."],"bullets":["Portaal en intercom","Lift, garage en berging","Woning- en reservesleutels","Contact met comunidad of administrateur"]},{"title":"Zorg voor een snelle lokale eerste beoordeling","paragraphs":["Bij een lekkage, stroomprobleem of melding vanuit het gebouw is de eerste vraag vaak: komt het probleem uit jouw appartement en is directe actie nodig? Een lokale beheerder kan de situatie bekijken, vastleggen en de juiste informatie verzamelen.","Dat voorkomt dat je op afstand verschillende leveranciers inschakelt zonder dat de oorzaak of toegang duidelijk is."]},{"title":"Stem beheer af op de gekozen verhuurvorm","paragraphs":["Vakantieverhuur vraagt kalender-, gasten- en schoonmaakcoördinatie. Midterm of langetermijn verschuift de aandacht naar kandidaatselectie, overeenkomst, overdracht en controles rond begin en einde van de huurperiode.","Voor iedere verhuurvorm gelden eigen voorwaarden. Controleer daarom vóór publicatie wat voor jouw appartement, gebouw en locatie toegestaan en praktisch uitvoerbaar is."]},{"title":"Houd privégebruik en verhuurgebruik gescheiden","paragraphs":["Leg vast welke persoonlijke spullen in de woning blijven, welke inventaris bij verhuur beschikbaar is en hoe de woning vóór jouw eigen aankomst wordt voorbereid. Gebruik één actuele kalender voor reserveringen, onderhoud en privéverblijven.","Met een Nederlandstalig aanspreekpunt blijft besluitvorming overzichtelijk, terwijl toegang en uitvoering lokaal in Málaga plaatsvinden."]}],"faqs":[["Kan een beheerder contact opnemen met mijn comunidad?","Praktische communicatie kan onderdeel zijn van de afspraken, maar de comunidad blijft verantwoordelijk voor gemeenschappelijke delen."],["Kan ik alleen sleutel- en woningbeheer afnemen?","Ja, beheer op afstand kan zonder verhuur worden ingericht."],["Welke verhuurvorm past bij een stadsappartement?","Dat hangt af van eigen gebruik, woning, gebouwregels, locatie en actuele voorwaarden."],["Kunnen jullie bij een storing eerst gaan kijken?","Wanneer toegang en lokale opvolging zijn afgesproken, kan een eerste beoordeling worden georganiseerd."],["Kan de woning voor mijn eigen verblijf worden voorbereid?","Ja, een controle en eventuele schoonmaak kunnen vóór aankomst worden ingepland."]]}
 ,
-{"slug":"stadsappartement-toegang-leveranciers-malaga","type":"gids","eyebrow":"Praktische gids voor eigenaren","title":"Toegang voor leveranciers regelen bij een stadsappartement in Málaga","seoTitle":"Leverancier toegang geven in Málaga | Sleutelbeheer","description":"Zo regel je veilige toegang voor schoonmakers, monteurs en leveranciers bij een stadsappartement in Málaga wanneer je zelf niet aanwezig bent.","intro":"Een monteur of schoonmaker toegang geven lijkt eenvoudig, maar bij een stadsappartement spelen portiek, lift, parkeerdruk, comunidadregels en meerdere sleutels mee. Met duidelijke toegangsafspraken blijft controle bij de eigenaar.","sections":[{"title":"Leg ieder toegangsmiddel afzonderlijk vast","paragraphs":["Noteer welke sleutel bij portiek, woning, garage, berging en brievenbus hoort. Voeg alleen noodzakelijke codes of passen toe en registreer wie welk middel ontvangt en wanneer het wordt teruggebracht.","In Centro Histórico, Huelin, La Malagueta en Málaga Este verschillen gebouwen sterk. Sommige portieken hebben een conciërge of beperkte werktijden; andere vragen vooraf afstemming met de comunidad."],"bullets":["Naam en telefoonnummer leverancier","Datum, tijdvak en doel van bezoek","Toegestane ruimtes en werkzaamheden","Teruggave sleutel en eindcontrole"]},{"title":"Geef opdracht en toegang niet als één blanco toestemming","paragraphs":["Een sleutel geeft fysieke toegang, maar bepaalt niet automatisch wat iemand mag uitvoeren. Bevestig de opdracht, ruimtes en kostenlimiet apart. Bij extra werk moet de leverancier eerst terugkoppelen.","Bescherm persoonlijke spullen en sluit ruimtes af die niet nodig zijn. Deel geen permanente code wanneer een tijdelijke oplossing of begeleid bezoek voldoende is."]},{"title":"Organiseer aankomst en parkeren realistisch","paragraphs":["In drukke stadswijken kan een leverancier tijd verliezen door laden, parkeren en zoeken naar de juiste ingang. Stuur vooraf een duidelijke route, gebouwnaam, verdieping en contactpersoon.","Plan werkzaamheden binnen toegestane tijden en controleer regels voor lawaai, liftbescherming of bouwafval. Daarmee voorkom je problemen met buren of comunidad tijdens de uitvoering."]},{"title":"Sluit ieder bezoek aantoonbaar af","paragraphs":["Laat na afloop bevestigen dat ramen, water, stroom en deur correct zijn achtergelaten. Vraag bij onderhoud om foto’s van het resultaat en eventuele vervolgpunten, niet alleen een melding dat men klaar is.","Een lokale sleutelbeheerder kan openen, begeleiden en de woning afsluiten. De eigenaar ontvangt één terugkoppeling en hoeft niet meerdere partijen op afstand te coördineren."]}],"faqs":[["Kunnen jullie een monteur toegang geven als ik niet in Málaga ben?","Ja, wanneer sleutelbeheer, opdracht en toestemming vooraf duidelijk zijn vastgelegd."],["Mag een leverancier een sleutel meenemen?","Alleen wanneer dat expliciet is afgesproken; begeleide of tijdelijke toegang heeft vaak de voorkeur."],["Kunnen werkzaamheden buiten kantooruren plaatsvinden?","Dat hangt af van gebouwregels, soort werk en beschikbaarheid van betrokken partijen."],["Wordt na afloop gecontroleerd of de woning dicht is?","Een afsluit- en eindcontrole kan onderdeel zijn van de beheeropdracht."],["Kan sleutelbeheer zonder verhuurbeheer?","Ja, sleutelbeheer en leverancierscoördinatie kunnen los van verhuur worden afgesproken."]]}
+{"slug":"stadsappartement-toegang-leveranciers-malaga","type":"gids","eyebrow":"Praktische gids voor eigenaren","title":"Toegang voor leveranciers regelen bij een stadsappartement in Málaga","seoTitle":"Leverancier toegang geven in Málaga | Sleutelbeheer","description":"Zo regel je veilige toegang voor schoonmakers, monteurs en leveranciers bij een stadsappartement in Málaga wanneer je zelf niet aanwezig bent.","intro":"Een monteur of schoonmaker toegang geven lijkt eenvoudig, maar bij een stadsappartement spelen portiek, lift, parkeerdruk, comunidadregels en meerdere sleutels mee. Met duidelijke toegangsafspraken blijft controle bij de eigenaar.","sections":[{"title":"Leg ieder toegangsmiddel afzonderlijk vast","paragraphs":["Noteer welke sleutel bij portiek, woning, garage, berging en brievenbus hoort. Voeg alleen noodzakelijke codes of passen toe en registreer wie welk middel ontvangt en wanneer het wordt teruggebracht.","In Centro Histórico, Huelin, La Malagueta en Málaga Este verschillen gebouwen sterk. Sommige portieken hebben een conciërge of beperkte werktijden; andere vragen vooraf afstemming met de comunidad."],"bullets":["Naam en telefoonnummer leverancier","Datum, tijdvak en doel van bezoek","Toegestane ruimtes en werkzaamheden","Teruggave sleutel en eindcontrole"]},{"title":"Geef opdracht en toegang niet als één blanco toestemming","paragraphs":["Een sleutel geeft fysieke toegang, maar bepaalt niet automatisch wat iemand mag uitvoeren. Bevestig de opdracht, ruimtes en kostenlimiet apart. Bij extra werk moet de leverancier eerst terugkoppelen.","Bescherm persoonlijke spullen en sluit ruimtes af die niet nodig zijn. Deel geen permanente code wanneer een tijdelijke oplossing of begeleid bezoek voldoende is."]},{"title":"Organiseer aankomst en parkeren realistisch","paragraphs":["In drukke stadswijken kan een leverancier tijd verliezen door laden, parkeren en zoeken naar de juiste ingang. Stuur vooraf een duidelijke route, gebouwnaam, verdieping en contactpersoon.","Plan werkzaamheden binnen toegestane tijden en controleer regels voor lawaai, liftbescherming of bouwafval. Daarmee voorkom je problemen met buren of comunidad tijdens de uitvoering."]},{"title":"Sluit ieder bezoek aantoonbaar af","paragraphs":["Laat na afloop bevestigen dat ramen, water, stroom en deur correct zijn achtergelaten. Vraag bij onderhoud om foto’s van het resultaat en eventuele vervolgpunten, niet alleen een melding dat men klaar is.","Een lokale sleutelbeheerder kan openen, begeleiden en de woning afsluiten. De eigenaar ontvangt één terugkoppeling en hoeft niet meerdere partijen op afstand te coördineren."]}],"faqs":[["Kunnen jullie een monteur toegang geven als ik niet in Málaga ben?","Ja, wanneer sleutelbeheer, opdracht en toestemming vooraf duidelijk zijn vastgelegd."],["Mag een leverancier een sleutel meenemen?","Alleen wanneer dat expliciet is afgesproken; begeleide of tijdelijke toegang heeft vaak de voorkeur."],["Kunnen werkzaamheden buiten kantooruren plaatsvinden?","Dat hangt af van gebouwregels, soort werk en beschikbaarheid van betrokken partijen."],["Wordt na afloop gecontroleerd of de woning dicht is?","Een afsluit- en eindcontrole kan onderdeel zijn van de beheeropdracht."],["Kan sleutelbeheer zonder verhuurbeheer?","Ja, sleutelbeheer en leverancierscoördinatie kunnen los van verhuur worden afgesproken."]]},
+{
+  "slug": "comunidad-afspraken-appartement-malaga",
+  "type": "gids",
+  "eyebrow": "Praktische gids voor appartementseigenaren",
+  "title": "Comunidad-afspraken beheren voor je appartement in Málaga",
+  "seoTitle": "Comunidad appartement Málaga | Gids eigenaar",
+  "description": "Zo organiseer je comunidadmeldingen, gebouwtoegang, werkzaamheden en lokale opvolging voor je appartement in Málaga wanneer je op afstand woont.",
+  "intro": "Bij een stadsappartement raken privéwoning en gemeenschappelijke delen elkaar dagelijks. Een lekkage, liftstoring of gevelwerk kan je woning beïnvloeden, terwijl de comunidad niet verantwoordelijk is voor alles binnen het appartement.",
+  "sections": [
+    {
+      "title": "Maak de grens tussen privé en gemeenschappelijk duidelijk",
+      "paragraphs": [
+        "Leg vast welke leidingen, ramen, gevels, terrassen en installaties onder de comunidad kunnen vallen en welke delen de eigenaar zelf beheert. Vraag bij twijfel om schriftelijke toelichting.",
+        "In Centro Histórico kunnen oudere gebouwen en toegangsbeperkingen spelen. In Huelin, La Malagueta en Málaga Este verschillen portiek, garage en voorzieningen per complex."
+      ],
+      "bullets": [
+        "Administrateur en noodnummer",
+        "Huisregels en werktijden",
+        "Toegang tot meters en technische ruimtes",
+        "Meldingen over gepland onderhoud"
+      ]
+    },
+    {
+      "title": "Zorg dat belangrijke meldingen niet blijven liggen",
+      "paragraphs": [
+        "Geef actuele contactgegevens door en bepaal wie berichten beoordeelt wanneer je niet in Spanje bent. Niet iedere circulaire is urgent, maar water, toegang en geplande afsluitingen vragen soms actie.",
+        "Bewaar relevante besluiten en werkzaamheden bij het eigenaarsdossier, zodat leveranciers weten welke gebouwafspraken gelden."
+      ]
+    },
+    {
+      "title": "Stem privéwerk af op het gebouw",
+      "paragraphs": [
+        "Controleer toegestane werktijden, liftbescherming, afvalafvoer en toestemming voor ingrijpende werkzaamheden. Informeer buren of administrateur wanneer dit volgens de regels nodig is.",
+        "Een lokale beheerder kan een leverancier ontvangen en controleren of gemeenschappelijke ruimtes netjes worden achtergelaten."
+      ]
+    },
+    {
+      "title": "Laat na een gebouwmelding lokaal controleren",
+      "paragraphs": [
+        "Bij lekkage of gevelwerk is een eerste visuele controle in het appartement vaak nodig om te bepalen of er binnen schade zichtbaar is. Leg situatie en datum met foto’s vast.",
+        "Daarna kan gericht worden afgestemd met comunidad, verzekeraar of specialist, zonder op afstand aannames te doen."
+      ]
+    }
+  ],
+  "faqs": [
+    [
+      "Beheert de comunidad ook mijn appartement?",
+      "Nee, doorgaans alleen de gemeenschappelijke delen; privébeheer blijft verantwoordelijkheid van de eigenaar."
+    ],
+    [
+      "Kan een beheerder mijn comunidadberichten opvolgen?",
+      "Praktische opvolging kan onderdeel zijn van de beheerafspraken."
+    ],
+    [
+      "Mag ik altijd werkzaamheden laten uitvoeren?",
+      "Controleer huisregels, vergunningen en eventuele toestemming vooraf."
+    ],
+    [
+      "Wie handelt bij een lekkage vanuit een gemeenschappelijk deel?",
+      "Documenteer eerst de bron en stem vervolgens af met administrateur, verzekering en specialist."
+    ],
+    [
+      "Kan comunidadopvolging zonder verhuur?",
+      "Ja, dit past binnen lokaal vastgoedbeheer."
+    ]
+  ]
+}
 ];
 export const contentBySlug=Object.fromEntries(contentPages.map(p=>[p.slug,p]));
