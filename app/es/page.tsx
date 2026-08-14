@@ -192,7 +192,7 @@ function LocalizedHome() {
     })),
   };
   return (
-    <main>
+    <main lang="es">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
@@ -696,5 +696,5 @@ function LocalizedHome() {
   );
 }
 
-export const metadata = { keywords: ["gestión de propiedades Málaga","gestión de alquiler vacacional Málaga","gestión de Airbnb Málaga","custodia de llaves Málaga","revisión de viviendas Málaga","gestión de segunda residencia Málaga","mantenimiento de viviendas Málaga","administración de propiedades Málaga"], title: "Gestión de Propiedades en Málaga | Alquiler Vacacional y Llaves", description: "Gestión local de propiedades en Málaga: alquiler vacacional, gestión de Airbnb, custodia de llaves, revisiones, limpieza y mantenimiento.", alternates: { canonical: "/es/", languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" } }, openGraph: { locale: "es_ES", url: "/es/", type: "website" as const } };
+export const metadata = { robots: { index: false, follow: true }, keywords: ["gestión de propiedades Málaga","gestión de alquiler vacacional Málaga","gestión de Airbnb Málaga","custodia de llaves Málaga","revisión de viviendas Málaga","gestión de segunda residencia Málaga","mantenimiento de viviendas Málaga","administración de propiedades Málaga"], title: "Gestión de Propiedades en Málaga | Alquiler Vacacional y Llaves", description: "Gestión local de propiedades en Málaga: alquiler vacacional, gestión de Airbnb, custodia de llaves, revisiones, limpieza y mantenimiento.", alternates: { canonical: "/es/", languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" } }, openGraph: { locale: "es_ES", url: "/es/", type: "website" as const } };
 export default LocalizedHome;
