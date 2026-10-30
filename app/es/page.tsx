@@ -138,7 +138,6 @@ function LocalizedHome() {
     parentOrganization: {
       "@type": "Organization",
       name: "Verhuurbeheer Spanje",
-      url: "https://www.verhuurbeheerspanje.nl/",
     },
     areaServed: [
       { "@type": "City", name: "Málaga" },
@@ -158,7 +157,6 @@ function LocalizedHome() {
     logo: absoluteUrl("/vbs-logo-malaga.webp"),
     image: absoluteUrl("/terras-zonsondergang-malaga.webp"),
     sameAs: [
-      siteConfig.brand.parentUrl,
       siteConfig.social.instagram,
       siteConfig.social.facebook,
     ],
@@ -635,9 +633,9 @@ function LocalizedHome() {
           </a>
           <p>
             Gestión de propiedades Málaga forma parte de{" "}
-            <a href="https://www.verhuurbeheerspanje.nl/">
+            <span>
               Verhuurbeheer Spanje
-            </a>
+            </span>
             .
           </p>
           <div className="social-links">
