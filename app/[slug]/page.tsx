@@ -1,3 +1,4 @@
+import { dutchPageAlternates } from "../language-alternates";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { contentBySlug, contentPages } from "../content";
@@ -93,7 +94,7 @@ export async function generateMetadata({
     title: { absolute: p.seoTitle },
     description: p.description,
     keywords: [...siteConfig.seo.primaryKeywords, ...siteConfig.seo.longTailKeywords],
-    alternates: { canonical: `/${p.slug}` },
+    alternates: dutchPageAlternates(p.slug, `/${p.slug}`),
     authors: [
       {
         name: siteConfig.brand.name,
@@ -271,7 +272,7 @@ export default async function ContentRoute({
     url: absoluteUrl(),
     logo: {
       "@type": "ImageObject",
-      url: absoluteUrl("/vbs-logo-malaga.webp"),
+      url: absoluteUrl("/verhuurbeheer-malaga-logo.webp"),
     },
   };
   const pageSchema =

@@ -148,7 +148,7 @@ function LocalizedHome() {
     ],
     telephone: siteConfig.contact.phone,
     url: absoluteUrl("/es"),
-    logo: absoluteUrl("/vbs-logo-malaga.webp"),
+    logo: absoluteUrl("/verhuurbeheer-malaga-logo.webp"),
     image: absoluteUrl("/terras-zonsondergang-malaga.webp"),
     knowsLanguage: ["nl", "en", "es"],
     knowsAbout: [
@@ -201,7 +201,7 @@ function LocalizedHome() {
           aria-label="Gestión de propiedades Málaga – Home"
         >
           <img
-            src="/vbs-logo-malaga.webp"
+            src="/verhuurbeheer-malaga-logo.webp"
             alt="Gestión de propiedades Málaga logo"
             width="54"
             height="54"
@@ -554,7 +554,7 @@ function LocalizedHome() {
         <div className="footer-brand">
           <a className="logo-lockup" href="/" aria-label="Home">
             <img
-              src="/vbs-logo-malaga.webp"
+              src="/verhuurbeheer-malaga-logo.webp"
               alt="Gestión de propiedades Málaga"
               width={640}
               height={640}

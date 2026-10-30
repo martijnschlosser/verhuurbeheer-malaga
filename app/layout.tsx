@@ -59,7 +59,7 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-  icons: { icon: "/favicon-malaga.png", apple: "/vbs-logo-malaga.webp" },
+  icons: { icon: "/favicon-malaga.png", apple: "/verhuurbeheer-malaga-logo.webp" },
   manifest: "/manifest.webmanifest",
   category: "vastgoedbeheer",
   verification: siteConfig.analytics.searchConsoleVerification

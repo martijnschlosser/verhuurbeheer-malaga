@@ -24,7 +24,7 @@ export const siteConfig = {
     ],
   },
   assets: {
-    logo: "/vbs-logo-malaga.webp",
+    logo: "/verhuurbeheer-malaga-logo.webp",
     hero: "/malaga-hero.webp",
     social: "/luxe-woning-malaga-zeezicht.webp",
     signup: "/zonnig-terras-zeezicht-malaga.webp",
