@@ -93,7 +93,7 @@ export async function generateMetadata({
     title: { absolute: p.seoTitle },
     description: p.description,
     keywords: [...siteConfig.seo.primaryKeywords, ...siteConfig.seo.longTailKeywords],
-    alternates: { canonical: `/${p.slug}/` },
+    alternates: { canonical: `/${p.slug}` },
     authors: [
       {
         name: siteConfig.brand.name,
@@ -104,7 +104,7 @@ export async function generateMetadata({
       title: p.seoTitle,
       description: p.description,
       type: p.type === "gids" ? "article" : "website",
-      url: `/${p.slug}/`,
+      url: `/${p.slug}`,
       siteName: siteConfig.brand.name,
       locale: "nl_NL",
       images: [
@@ -263,7 +263,7 @@ export default async function ContentRoute({
       acceptedAnswer: { "@type": "Answer", text },
     })),
   };
-  const pageUrl = absoluteUrl(`/${page.slug}/`);
+  const pageUrl = absoluteUrl(`/${page.slug}`);
   const organization = {
     "@type": "Organization",
     "@id": `${siteConfig.domain}/#organization`,
@@ -327,7 +327,7 @@ export default async function ContentRoute({
               : "Bedrijf",
         item:
           page.type === "gids"
-            ? absoluteUrl("/blog/")
+            ? absoluteUrl("/blog")
             : absoluteUrl(),
       },
       { "@type": "ListItem", position: 3, name: page.title, item: pageUrl },
@@ -445,25 +445,25 @@ export default async function ContentRoute({
           <details className="services-menu">
             <summary>Diensten</summary>
             <div>
-              <a href="/vakantieverhuur-malaga/">Vakantieverhuur</a>
-              <a href="/midterm-verhuur-malaga/">
+              <a href="/vakantieverhuur-malaga">Vakantieverhuur</a>
+              <a href="/midterm-verhuur-malaga">
                 Seizoens- en midtermverhuur
               </a>
-              <a href="/langetermijnverhuur-malaga/">Langetermijnverhuur</a>
-              <a href="/vastgoedbeheer-malaga/">Vastgoedbeheer</a>
-              <a href="/schoonmaak-onderhoud-malaga/">
+              <a href="/langetermijnverhuur-malaga">Langetermijnverhuur</a>
+              <a href="/vastgoedbeheer-malaga">Vastgoedbeheer</a>
+              <a href="/schoonmaak-onderhoud-malaga">
                 Schoonmaak & onderhoud
               </a>
-              <a href="/renovatie-inrichting-malaga/">
+              <a href="/renovatie-inrichting-malaga">
                 Renovatie & inrichting
               </a>
-              <a href="/verhuurlicentie-malaga/">Verhuurlicentie</a>
+              <a href="/verhuurlicentie-malaga">Verhuurlicentie</a>
             </div>
           </details>
-          <a href="/werkwijze/">Werkwijze</a>
-          <a href="/over-ons/">Over ons</a>
-          <a href="/blog/">Blog</a>
-          <a href="/contact/">Contact</a>
+          <a href="/werkwijze">Werkwijze</a>
+          <a href="/over-ons">Over ons</a>
+          <a href="/blog">Blog</a>
+          <a href="/contact">Contact</a>
         </nav>
         <a className="button button-outline header-cta" href={leadHref}>
           Woning aanmelden
@@ -477,19 +477,19 @@ export default async function ContentRoute({
           <div>
             <a href="/">Home</a>
             <b>Diensten</b>
-            <a href="/vakantieverhuur-malaga/">Vakantieverhuur</a>
-            <a href="/midterm-verhuur-malaga/">Seizoens- en midtermverhuur</a>
-            <a href="/langetermijnverhuur-malaga/">Langetermijnverhuur</a>
-            <a href="/vastgoedbeheer-malaga/">Vastgoedbeheer</a>
-            <a href="/schoonmaak-onderhoud-malaga/">Schoonmaak & onderhoud</a>
-            <a href="/renovatie-inrichting-malaga/">Renovatie & inrichting</a>
-            <a href="/verhuurlicentie-malaga/">Verhuurlicentie</a>
+            <a href="/vakantieverhuur-malaga">Vakantieverhuur</a>
+            <a href="/midterm-verhuur-malaga">Seizoens- en midtermverhuur</a>
+            <a href="/langetermijnverhuur-malaga">Langetermijnverhuur</a>
+            <a href="/vastgoedbeheer-malaga">Vastgoedbeheer</a>
+            <a href="/schoonmaak-onderhoud-malaga">Schoonmaak & onderhoud</a>
+            <a href="/renovatie-inrichting-malaga">Renovatie & inrichting</a>
+            <a href="/verhuurlicentie-malaga">Verhuurlicentie</a>
             <b>Bedrijf</b>
-            <a href="/werkwijze/">Werkwijze</a>
-            <a href="/over-ons/">Over ons</a>
-            <a href="/blog/">Blog & kennisbank</a>
-            <a href="/contact/">Contact</a>
-            <a href="/woning-aanmelden/">Woning aanmelden</a>
+            <a href="/werkwijze">Werkwijze</a>
+            <a href="/over-ons">Over ons</a>
+            <a href="/blog">Blog & kennisbank</a>
+            <a href="/contact">Contact</a>
+            <a href="/woning-aanmelden">Woning aanmelden</a>
           </div>
         </details>
       </header>
@@ -512,7 +512,7 @@ export default async function ContentRoute({
           <h1>{displayTitle}</h1>
           <p>{page.intro}</p>
           {page.slug !== "contact" && page.slug !== "woning-aanmelden" && (
-            <a className="button button-primary" href="/woning-aanmelden/">
+            <a className="button button-primary" href="/woning-aanmelden">
               Bespreek je woning →
             </a>
           )}
@@ -586,7 +586,7 @@ export default async function ContentRoute({
             <p className="eyebrow">Nieuw &amp; belangrijk</p>
             <h2>Uitgelicht voor woningeigenaren</h2>
           </div>
-          <a className="featured-article" href={`/${featuredBlog.slug}/`}>
+          <a className="featured-article" href={`/${featuredBlog.slug}`}>
             <img
               src={featuredBlogVisual!.src}
               alt={featuredBlogVisual!.alt}
@@ -614,7 +614,7 @@ export default async function ContentRoute({
               return (
                 <a
                   className="blog-card"
-                  href={`/${article.slug}/`}
+                  href={`/${article.slug}`}
                   key={article.slug}
                 >
                   <img src={visual.src} alt={visual.alt} width="1600" height="1067" loading="lazy" />
@@ -742,7 +742,7 @@ export default async function ContentRoute({
           <h2>Meer voor eigenaren in Málaga</h2>
           <div>
             {related.map((r) => (
-              <a href={`/${r.slug}/`} key={r.slug}>
+              <a href={`/${r.slug}`} key={r.slug}>
                 <small>{r.type}</small>
                 <strong>{r.title}</strong>
                 <span>Lees verder →</span>
@@ -786,7 +786,7 @@ export default async function ContentRoute({
             Dan bespreken we de mogelijkheden voor beheer en verhuur in
             Málaga.
           </p>
-          <a className="button button-primary" href="/woning-aanmelden/">
+          <a className="button button-primary" href="/woning-aanmelden">
             Vraag een verhuurindicatie aan →
           </a>
         </section>
@@ -804,26 +804,26 @@ export default async function ContentRoute({
         </div>
         <div>
           <b>Diensten</b>
-          <a href="/vakantieverhuur-malaga/">Vakantieverhuur</a>
-          <a href="/midterm-verhuur-malaga/">Seizoens- en midtermverhuur</a>
-          <a href="/langetermijnverhuur-malaga/">Langetermijnverhuur</a>
-          <a href="/vastgoedbeheer-malaga/">Vastgoedbeheer</a>
-          <a href="/verhuurlicentie-malaga/">Verhuurlicentie</a>
-          <a href="/nederlandse-verhuurmakelaar-malaga/">Nederlandse verhuurmakelaar</a>
-          <a href="/sleutelbeheer-malaga/">Sleutelbeheer</a>
-          <a href="/appartement-verhuren-malaga/">Appartement verhuren</a>
-          <a href="/villa-verhuren-malaga/">Villa verhuren</a>
-          <a href="/airbnb-beheer-malaga/">Airbnb & Booking beheer</a>
-          <a href="/tweede-woning-beheer-malaga/">Tweede woning beheer</a>
+          <a href="/vakantieverhuur-malaga">Vakantieverhuur</a>
+          <a href="/midterm-verhuur-malaga">Seizoens- en midtermverhuur</a>
+          <a href="/langetermijnverhuur-malaga">Langetermijnverhuur</a>
+          <a href="/vastgoedbeheer-malaga">Vastgoedbeheer</a>
+          <a href="/verhuurlicentie-malaga">Verhuurlicentie</a>
+          <a href="/nederlandse-verhuurmakelaar-malaga">Nederlandse verhuurmakelaar</a>
+          <a href="/sleutelbeheer-malaga">Sleutelbeheer</a>
+          <a href="/appartement-verhuren-malaga">Appartement verhuren</a>
+          <a href="/villa-verhuren-malaga">Villa verhuren</a>
+          <a href="/airbnb-beheer-malaga">Airbnb & Booking beheer</a>
+          <a href="/tweede-woning-beheer-malaga">Tweede woning beheer</a>
         </div>
         <div>
           <b>Meer</b>
-          <a href="/werkwijze/">Werkwijze</a>
-          <a href="/over-ons/">Over ons</a>
-          <a href="/blog/">Blog</a>
-          <a href="/contact/">Contact</a>
-          <a href="/privacyverklaring/">Privacyverklaring</a>
-          <a href="/cookieverklaring/">Cookieverklaring</a>
+          <a href="/werkwijze">Werkwijze</a>
+          <a href="/over-ons">Over ons</a>
+          <a href="/blog">Blog</a>
+          <a href="/contact">Contact</a>
+          <a href="/privacyverklaring">Privacyverklaring</a>
+          <a href="/cookieverklaring">Cookieverklaring</a>
           <CookiePreferencesButton />
         </div>
         <div>
